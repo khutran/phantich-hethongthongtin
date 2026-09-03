@@ -1,12 +1,12 @@
 STT,Nội dung công việc,Ngày bắt đầu,Ngày kết thúc,Kết quả cần đạt được,Trạng thái thực hiện
 1,"Nghiên cứu thực tế (chọn đề tài Quản lý bán hàng, khảo sát bài toán)",03/09/2026,03/09/2026,Báo cáo kết quả khảo sát - mô tả bài toán và phạm vi hệ thống,Đã hoàn thành
 2,Lập kế hoạch,03/09/2026,03/09/2026,Bản kế hoạch dự án (file này),Đã hoàn thành
-3,Phân tích,04/09/2026,09/09/2026,Báo cáo kết quả phân tích,Đang thực hiện
-3.1,Lập bảng phân tích đối tượng liên quan (tác nhân: khách hàng/nhà cung cấp/nhân viên/quản lý),04/09/2026,04/09/2026,Bảng phân tích đối tượng liên quan,Đang thực hiện
-3.2,Xây dựng sơ đồ luồng thông tin của hệ thống (IFD),04/09/2026,05/09/2026,Sơ đồ luồng thông tin của hệ thống (IFD),Đang thực hiện
+3,Phân tích,04/09/2026,09/09/2026,Báo cáo kết quả phân tích,Đã hoàn thành
+3.1,Lập bảng phân tích đối tượng liên quan (tác nhân: khách hàng/nhà cung cấp/nhân viên/quản lý),04/09/2026,04/09/2026,Bảng phân tích đối tượng liên quan,Đã hoàn thành
+3.2,Xây dựng sơ đồ luồng thông tin của hệ thống (IFD),04/09/2026,05/09/2026,Sơ đồ luồng thông tin của hệ thống (IFD),Đã hoàn thành
 3.3,Xây dựng sơ đồ chức năng kinh doanh (BFD),05/09/2026,05/09/2026,Sơ đồ chức năng kinh doanh (BFD.drawio),Đã hoàn thành
 3.4,Xây dựng sơ đồ ngữ cảnh của hệ thống (CD),06/09/2026,06/09/2026,Sơ đồ ngữ cảnh (SoDoNguCanh.drawio),Đã hoàn thành
-3.5,Xây dựng sơ đồ DFD mức đỉnh và mức 1,07/09/2026,09/09/2026,"Sơ đồ DFD mức đỉnh + mức 1 (DFD_Muc0.drawio, DFD_Muc1.drawio)",Đang thực hiện
+3.5,Xây dựng sơ đồ DFD mức đỉnh và mức 1,07/09/2026,09/09/2026,"Sơ đồ DFD mức đỉnh + mức 1 (DFD_Muc0.drawio, DFD_Muc1.drawio)",Đã hoàn thành
 4,Thiết kế hệ thống,10/09/2026,16/09/2026,Báo cáo kết quả thiết kế,Chưa thực hiện
 4.1,Thiết kế cơ sở dữ liệu (ERD),10/09/2026,12/09/2026,Sơ đồ quan hệ thực thể (ERD.drawio) + mô tả bảng dữ liệu,Chưa thực hiện
 4.2,Thiết kế giải thuật,13/09/2026,13/09/2026,Lưu đồ giải thuật cho chức năng lập đơn hàng/hóa đơn,Chưa thực hiện
