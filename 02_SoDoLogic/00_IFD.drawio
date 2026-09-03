@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="IFD - So do luong thong tin" id="ifd1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hkh" value="KHÁCH HÀNG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="20" width="260" height="50" as="geometry" /></mxCell>
+        <mxCell id="hkh_line" style="endArrow=none;html=1;dashed=1;strokeColor=#9673a6;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="170" y="90" as="sourcePoint"/><mxPoint x="170" y="900" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell id="hbh" value="BỘ PHẬN BÁN HÀNG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" vertex="1" parent="1"><mxGeometry x="340" y="20" width="260" height="50" as="geometry" /></mxCell>
+        <mxCell id="hbh_line" style="endArrow=none;html=1;dashed=1;strokeColor=#9673a6;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="470" y="90" as="sourcePoint"/><mxPoint x="470" y="900" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell id="hkho" value="BỘ PHẬN KHO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" vertex="1" parent="1"><mxGeometry x="640" y="20" width="260" height="50" as="geometry" /></mxCell>
+        <mxCell id="hkho_line" style="endArrow=none;html=1;dashed=1;strokeColor=#9673a6;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="770" y="90" as="sourcePoint"/><mxPoint x="770" y="900" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell id="hkt" value="KẾ TOÁN / BAN GIÁM ĐỐC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=11;" vertex="1" parent="1"><mxGeometry x="940" y="20" width="260" height="50" as="geometry" /></mxCell>
+        <mxCell id="hkt_line" style="endArrow=none;html=1;dashed=1;strokeColor=#9673a6;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1070" y="90" as="sourcePoint"/><mxPoint x="1070" y="900" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell id="d1" value="Yêu cầu mua hàng" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="120" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="p1" value="Lập đơn hàng" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="120" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="d2" value="Phiếu yêu cầu xuất kho" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" vertex="1" parent="1"><mxGeometry x="640" y="220" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="p2" value="Kiểm tra tồn kho" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="640" y="320" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="d3" value="Xác nhận tồn kho" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" vertex="1" parent="1"><mxGeometry x="340" y="420" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="p3" value="Lập hóa đơn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="520" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="d4" value="Hóa đơn" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="620" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="p4" value="Ghi nhận doanh thu, công nợ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="940" y="620" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="d5" value="Báo cáo doanh thu" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=14;" vertex="1" parent="1"><mxGeometry x="940" y="720" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="fe0" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="d1" target="p1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe1" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="p1" target="d2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe2" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="d2" target="p2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe3" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="p2" target="d3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe4" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="d3" target="p3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe5" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="p3" target="d4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe6" value="Lưu hóa đơn" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="p3" target="p4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fe7" style="html=1;endArrow=block;fontSize=9;" edge="1" parent="1" source="p4" target="d5"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

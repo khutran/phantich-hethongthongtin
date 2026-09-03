@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ERD - Quan he thuc the" id="erd1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KHACHHANG" value="KHACHHANG&#10;*MaKH&#10;TenKH&#10;DiaChi&#10;SDT&#10;Email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="220" height="160" as="geometry" /></mxCell>
+        <mxCell id="NHANVIEN" value="NHANVIEN&#10;*MaNV&#10;HoTen&#10;ChucVu&#10;SDT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="520" y="40" width="220" height="134" as="geometry" /></mxCell>
+        <mxCell id="NHACUNGCAP" value="NHACUNGCAP&#10;*MaNCC&#10;TenNCC&#10;DiaChi&#10;SDT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1000" y="40" width="220" height="134" as="geometry" /></mxCell>
+        <mxCell id="DONHANG" value="DONHANG&#10;*MaDH&#10;NgayDat&#10;TrangThai&#10;°MaKH&#10;°MaNV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="320" width="220" height="160" as="geometry" /></mxCell>
+        <mxCell id="CTDONHANG" value="CTDONHANG&#10;°MaDH&#10;°MaSP&#10;SoLuong&#10;DonGia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="320" y="320" width="200" height="134" as="geometry" /></mxCell>
+        <mxCell id="SANPHAM" value="SANPHAM&#10;*MaSP&#10;TenSP&#10;DonViTinh&#10;DonGiaBan&#10;SoLuongTon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="580" y="320" width="220" height="160" as="geometry" /></mxCell>
+        <mxCell id="CTPHIEUNHAP" value="CTPHIEUNHAP&#10;°MaPN&#10;°MaSP&#10;SoLuong&#10;DonGiaNhap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="860" y="320" width="200" height="134" as="geometry" /></mxCell>
+        <mxCell id="PHIEUNHAP" value="PHIEUNHAP&#10;*MaPN&#10;NgayNhap&#10;°MaNCC&#10;°MaNV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1120" y="320" width="220" height="134" as="geometry" /></mxCell>
+        <mxCell id="HOADON" value="HOADON&#10;*MaHD&#10;NgayLap&#10;TongTien&#10;HinhThucTT&#10;°MaDH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="600" width="220" height="160" as="geometry" /></mxCell>
+        <mxCell id="r1" value="đặt (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="KHACHHANG" target="DONHANG"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r2" value="lập (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="NHANVIEN" target="DONHANG"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r3" value="gồm (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="DONHANG" target="CTDONHANG"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r4" value="thuộc (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="SANPHAM" target="CTDONHANG"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r5" value="xuất (1-1)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="DONHANG" target="HOADON"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r6" value="cung cấp (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="NHACUNGCAP" target="PHIEUNHAP"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r7" value="lập (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="NHANVIEN" target="PHIEUNHAP"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r8" value="gồm (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="PHIEUNHAP" target="CTPHIEUNHAP"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r9" value="thuộc (1-n)" style="html=1;endArrow=none;startArrow=none;fontSize=10;" edge="1" parent="1" source="SANPHAM" target="CTPHIEUNHAP"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="note1" value="Ghi chú: * = khóa chính, &#176; = khóa ngoại" style="text;html=1;align=left;fontStyle=2;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="800" width="400" height="30" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

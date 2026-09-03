@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Context Diagram" id="cd1">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1050" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="proc" value="0.0&#10;HỆ THỐNG&#10;QUẢN LÝ BÁN HÀNG" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="220" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kh" value="KHÁCH HÀNG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ncc" value="NHÀ CUNG CẤP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nv" value="NHÂN VIÊN BÁN HÀNG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ql" value="QUẢN LÝ (BAN GIÁM ĐỐC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="640" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" value="Yêu cầu mua hàng, thông tin đặt hàng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" edge="1" parent="1" source="kh" target="proc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" value="Hóa đơn, thông báo trạng thái" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0;exitY=0.7;entryX=1;entryY=0.7;" edge="1" parent="1" source="proc" target="kh"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e3" value="Báo giá, hàng hóa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.3;exitY=1;entryX=0.3;entryY=0;" edge="1" parent="1" source="ncc" target="proc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" value="Đơn đặt hàng, phiếu nhập" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.7;exitY=0;entryX=0.7;entryY=1;" edge="1" parent="1" source="proc" target="ncc"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e5" value="Thông tin đơn hàng, cập nhật dữ liệu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0;exitY=0.3;entryX=1;entryY=0.3;" edge="1" parent="1" source="nv" target="proc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" value="Danh sách sản phẩm, thông tin khách hàng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=1;exitY=0.7;entryX=0;entryY=0.7;" edge="1" parent="1" source="proc" target="nv"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e7" value="Yêu cầu báo cáo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.3;exitY=0;entryX=0.3;entryY=1;" edge="1" parent="1" source="ql" target="proc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" value="Báo cáo doanh thu, tồn kho, công nợ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.7;exitY=1;entryX=0.7;entryY=0;" edge="1" parent="1" source="proc" target="ql"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
